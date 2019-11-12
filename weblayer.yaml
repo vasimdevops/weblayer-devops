@@ -1,5 +1,6 @@
 - name: installing apache
   hosts: web
+  user : root
   become: yes
 
   tasks:
