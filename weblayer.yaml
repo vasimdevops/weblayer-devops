@@ -7,7 +7,7 @@
   - name: Ensure httpd package is present
     yum:
       name: httpd
-      state: latest
+      state: present
 
   - name: Ensure httpd is started
     service:
